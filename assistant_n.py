@@ -14,7 +14,7 @@ def speech_to_text():
         except sr.RequestError as e:
             print("Could not request results; {0}".format(e))
 
-genai.configure(api_key="AIzaSyD8tceqfzNCUBpa7QybPsSvTkUetmNcDOY")
+genai.configure(api_key="AIzaSyD8tceqfzNCUBpa7QybPsSvTkUetmNcDO")
 
 # Set up the model
 generation_config = {
