@@ -37,7 +37,7 @@ def download_images(query, limit, output_directory):
 
 query = "long gun"  # Set your desired search query here
 limit = 500  # Number of images to download
-output_directory = "/home/nigga/Documents/rajasthan hackthon/Weapon-Detection-And-Classification/train/KnivesImagesDatabase/long gun"  # Set the path to your desired folder
+output_directory = "/home//Documents/rajasthan hackthon/Weapon-Detection-And-Classification/train/KnivesImagesDatabase/long gun"  # Set the path to your desired folder
 
 # Create the folder if it doesn't exist
 if not os.path.exists(output_directory):
